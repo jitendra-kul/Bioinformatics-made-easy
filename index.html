@@ -3,254 +3,646 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bioinformatics Made Easy - Professional training in single-cell RNA-seq, bulk RNA-seq, protein design, machine learning for life sciences, and cloud computing">
-    <meta name="keywords" content="bioinformatics, RNA-seq, single-cell, protein design, machine learning, NGS, training">
-    <meta name="author" content="Dr. Jitendra Kumar">
-    <title>Bioinformatics Made Easy - Professional Training & Courses</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Bioinformatics Made Easy - Premier professional training in computational biology, genomics, and bioinformatics">
+    <meta name="keywords" content="bioinformatics training, RNA-seq courses, protein design, machine learning biology, computational biology">
+    <meta name="author" content="Dr. Jitendra Kuldeep">
+    <title>Bioinformatics Made Easy | Professional Training in Computational Biology</title>
+    <link rel="stylesheet" href="css/professional-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="top-bar-left">
+                    <span>📧 jitendrapramanik88@gmail.com</span>
+                    <span class="separator">|</span>
+                    <span>🎓 PhD-Led Training Programs</span>
+                </div>
+                <div class="top-bar-right">
+                    <a href="https://linkedin.com/in/jitendra-kul" target="_blank" class="top-link">LinkedIn</a>
+                    <a href="https://github.com/jitendra-kul" target="_blank" class="top-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="nav-brand">
-                <h1>Bioinformatics Made Easy</h1>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="nav-wrapper">
+                <div class="nav-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🧬</span>
+                        <div class="logo-text">
+                            <span class="logo-main">Bioinformatics Made Easy</span>
+                            <span class="logo-tagline">Professional Training Platform</span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#methodology">Methodology</a></li>
+                    <li><a href="#instructor">Instructor</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="nav-cta">Enroll Now</a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="hero-background"></div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Master Bioinformatics with Expert-Led Training</h1>
-                <p class="hero-subtitle">From genomics to protein design, learn cutting-edge computational biology techniques from a PhD expert with years of research experience</p>
-                <div class="hero-buttons">
-                    <a href="#courses" class="btn btn-primary">Explore Courses</a>
-                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Industry-Leading Training
+                </div>
+                <h1 class="hero-title">Transform Your Career in<br><span class="gradient-text">Computational Biology</span></h1>
+                <p class="hero-description">Master cutting-edge bioinformatics techniques through expert-led, hands-on training programs. From single-cell analysis to AI-driven protein design.</p>
+                
+                <div class="hero-actions">
+                    <a href="#courses" class="btn btn-primary btn-large">
+                        Explore Training Programs
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-large">
+                        Schedule Consultation
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-value">6+</div>
+                        <div class="stat-label">Specialized Courses</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Hands-On Training</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-value">PhD</div>
+                        <div class="stat-label">Expert Instructor</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-value">Real</div>
+                        <div class="stat-label">Research Projects</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-content">
+                <div class="trust-item">
+                    <div class="trust-icon">✓</div>
+                    <div class="trust-text">PhD-Designed Curriculum</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">✓</div>
+                    <div class="trust-text">Industry-Standard Tools</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">✓</div>
+                    <div class="trust-text">Real-World Applications</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">✓</div>
+                    <div class="trust-text">Lifetime Access</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Courses Section -->
-    <section id="courses" class="courses">
+    <section id="courses" class="courses-section">
         <div class="container">
-            <h2 class="section-title">Our Courses</h2>
-            <p class="section-subtitle">Comprehensive training programs designed for researchers and professionals</p>
-            
-            <div class="course-grid">
+            <div class="section-header">
+                <div class="section-badge">Our Programs</div>
+                <h2 class="section-title">Professional Training Courses</h2>
+                <p class="section-description">Comprehensive, research-backed programs designed for scientists and researchers advancing their computational skills</p>
+            </div>
+
+            <div class="courses-grid">
                 <!-- Course 1 -->
-                <div class="course-card">
-                    <div class="course-icon">🧬</div>
-                    <h3>Single-Cell RNA-seq Analysis</h3>
-                    <p>Master single-cell transcriptomics analysis using Seurat, Scanpy, and advanced techniques including batch correction, cell type annotation, and trajectory inference.</p>
-                    <ul class="course-topics">
-                        <li>Quality control & preprocessing</li>
-                        <li>Dimensionality reduction & clustering</li>
-                        <li>Cell type identification</li>
-                        <li>Differential expression analysis</li>
-                        <li>Trajectory & pseudotime analysis</li>
-                    </ul>
-                    <a href="#contact" class="course-link">Learn More →</a>
+                <div class="course-card premium">
+                    <div class="course-tag popular">Most Popular</div>
+                    <div class="course-category">Advanced Analytics</div>
+                    <h3 class="course-title">Single-Cell RNA-seq Analysis</h3>
+                    <p class="course-excerpt">Comprehensive training in single-cell transcriptomics using Seurat, Scanpy, and cutting-edge analytical frameworks</p>
+                    
+                    <div class="course-meta-row">
+                        <div class="course-level">
+                            <span class="level-badge intermediate">Intermediate</span>
+                        </div>
+                        <div class="course-duration">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M8 4V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            40+ Hours
+                        </div>
+                    </div>
+
+                    <div class="course-features">
+                        <div class="feature-item">✓ Quality Control & Preprocessing</div>
+                        <div class="feature-item">✓ Clustering & Cell Type Annotation</div>
+                        <div class="feature-item">✓ Batch Effect Correction (Harmony)</div>
+                        <div class="feature-item">✓ Trajectory Analysis & Pseudotime</div>
+                        <div class="feature-item">✓ Multi-Sample Integration</div>
+                    </div>
+
+                    <div class="course-tools">
+                        <span class="tech-badge">Seurat</span>
+                        <span class="tech-badge">Scanpy</span>
+                        <span class="tech-badge">R/Python</span>
+                    </div>
+
+                    <a href="#contact" class="course-btn">
+                        Enroll Now
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
                 </div>
 
                 <!-- Course 2 -->
                 <div class="course-card">
-                    <div class="course-icon">📊</div>
-                    <h3>Bulk RNA-seq & NGS Data Analysis</h3>
-                    <p>Comprehensive training in next-generation sequencing data analysis from raw reads to biological insights using industry-standard tools and pipelines.</p>
-                    <ul class="course-topics">
-                        <li>Read alignment & quality control</li>
-                        <li>Gene expression quantification</li>
-                        <li>Differential expression (DESeq2, edgeR)</li>
-                        <li>Functional enrichment analysis</li>
-                        <li>Visualization & interpretation</li>
-                    </ul>
-                    <a href="#contact" class="course-link">Learn More →</a>
+                    <div class="course-category">Foundational</div>
+                    <h3 class="course-title">Bulk RNA-seq & NGS Analysis</h3>
+                    <p class="course-excerpt">Master next-generation sequencing analysis from raw reads to biological insights using industry-standard pipelines</p>
+                    
+                    <div class="course-meta-row">
+                        <div class="course-level">
+                            <span class="level-badge beginner">Beginner</span>
+                        </div>
+                        <div class="course-duration">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M8 4V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            30+ Hours
+                        </div>
+                    </div>
+
+                    <div class="course-features">
+                        <div class="feature-item">✓ Read Alignment & QC</div>
+                        <div class="feature-item">✓ Gene Expression Quantification</div>
+                        <div class="feature-item">✓ Differential Expression (DESeq2)</div>
+                        <div class="feature-item">✓ Functional Enrichment Analysis</div>
+                        <div class="feature-item">✓ Visualization & Reporting</div>
+                    </div>
+
+                    <div class="course-tools">
+                        <span class="tech-badge">DESeq2</span>
+                        <span class="tech-badge">edgeR</span>
+                        <span class="tech-badge">R</span>
+                    </div>
+
+                    <a href="#contact" class="course-btn">
+                        Learn More
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
                 </div>
 
                 <!-- Course 3 -->
-                <div class="course-card">
-                    <div class="course-icon">🔬</div>
-                    <h3>Protein Design & Engineering</h3>
-                    <p>Learn computational protein design using state-of-the-art tools including RFdiffusion, ProteinMPNN, and structure prediction methods for various applications.</p>
-                    <ul class="course-topics">
-                        <li>Protein structure prediction</li>
-                        <li>De novo protein design (RFdiffusion)</li>
-                        <li>Sequence design (ProteinMPNN)</li>
-                        <li>Metal-binding protein design</li>
-                        <li>Antibody design workflows</li>
-                    </ul>
-                    <a href="#contact" class="course-link">Learn More →</a>
+                <div class="course-card premium">
+                    <div class="course-tag hot">Hot Topic</div>
+                    <div class="course-category">AI & Protein Engineering</div>
+                    <h3 class="course-title">Computational Protein Design</h3>
+                    <p class="course-excerpt">Learn AI-driven protein engineering using RFdiffusion, ProteinMPNN, and AlphaFold for novel protein design</p>
+                    
+                    <div class="course-meta-row">
+                        <div class="course-level">
+                            <span class="level-badge advanced">Advanced</span>
+                        </div>
+                        <div class="course-duration">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M8 4V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            35+ Hours
+                        </div>
+                    </div>
+
+                    <div class="course-features">
+                        <div class="feature-item">✓ Structure Prediction (AlphaFold)</div>
+                        <div class="feature-item">✓ De Novo Design (RFdiffusion)</div>
+                        <div class="feature-item">✓ Sequence Optimization (ProteinMPNN)</div>
+                        <div class="feature-item">✓ Metal-Binding Protein Design</div>
+                        <div class="feature-item">✓ Antibody Engineering Workflows</div>
+                    </div>
+
+                    <div class="course-tools">
+                        <span class="tech-badge">RFdiffusion</span>
+                        <span class="tech-badge">ProteinMPNN</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+
+                    <a href="#contact" class="course-btn">
+                        Enroll Now
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
                 </div>
 
                 <!-- Course 4 -->
                 <div class="course-card">
-                    <div class="course-icon">🤖</div>
-                    <h3>Machine Learning for Life Sciences</h3>
-                    <p>Apply machine learning and deep learning techniques to biological data including drug discovery, molecular property prediction, and omics data analysis.</p>
-                    <ul class="course-topics">
-                        <li>ML fundamentals for biologists</li>
-                        <li>Graph neural networks (GNN)</li>
-                        <li>Drug discovery applications</li>
-                        <li>Feature engineering for molecules</li>
-                        <li>Model evaluation & validation</li>
-                    </ul>
-                    <a href="#contact" class="course-link">Learn More →</a>
+                    <div class="course-category">Machine Learning</div>
+                    <h3 class="course-title">ML for Life Sciences</h3>
+                    <p class="course-excerpt">Apply machine learning and deep learning to biological data, drug discovery, and molecular property prediction</p>
+                    
+                    <div class="course-meta-row">
+                        <div class="course-level">
+                            <span class="level-badge intermediate">Intermediate</span>
+                        </div>
+                        <div class="course-duration">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M8 4V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            45+ Hours
+                        </div>
+                    </div>
+
+                    <div class="course-features">
+                        <div class="feature-item">✓ ML Fundamentals for Biologists</div>
+                        <div class="feature-item">✓ Graph Neural Networks</div>
+                        <div class="feature-item">✓ Drug Discovery Applications</div>
+                        <div class="feature-item">✓ Molecular Feature Engineering</div>
+                        <div class="feature-item">✓ Model Validation & Interpretation</div>
+                    </div>
+
+                    <div class="course-tools">
+                        <span class="tech-badge">TensorFlow</span>
+                        <span class="tech-badge">PyTorch</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+
+                    <a href="#contact" class="course-btn">
+                        Learn More
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
                 </div>
 
                 <!-- Course 5 -->
                 <div class="course-card">
-                    <div class="course-icon">☁️</div>
-                    <h3>Cloud Computing for Bioinformatics</h3>
-                    <p>Learn to leverage cloud platforms (AWS, HPC clusters) for scalable bioinformatics analysis, from basic concepts to advanced GPU-accelerated workflows.</p>
-                    <ul class="course-topics">
-                        <li>Cloud infrastructure basics</li>
-                        <li>AWS EC2 for bioinformatics</li>
-                        <li>Docker & containerization</li>
-                        <li>GPU-accelerated analysis</li>
-                        <li>Cost optimization strategies</li>
-                    </ul>
-                    <a href="#contact" class="course-link">Learn More →</a>
+                    <div class="course-category">Infrastructure</div>
+                    <h3 class="course-title">Cloud Computing for Bioinformatics</h3>
+                    <p class="course-excerpt">Master cloud platforms and GPU computing for scalable bioinformatics workflows and high-performance analysis</p>
+                    
+                    <div class="course-meta-row">
+                        <div class="course-level">
+                            <span class="level-badge intermediate">Intermediate</span>
+                        </div>
+                        <div class="course-duration">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M8 4V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            25+ Hours
+                        </div>
+                    </div>
+
+                    <div class="course-features">
+                        <div class="feature-item">✓ Cloud Infrastructure Basics</div>
+                        <div class="feature-item">✓ AWS EC2 for Bioinformatics</div>
+                        <div class="feature-item">✓ Docker Containerization</div>
+                        <div class="feature-item">✓ GPU-Accelerated Workflows</div>
+                        <div class="feature-item">✓ Cost Optimization Strategies</div>
+                    </div>
+
+                    <div class="course-tools">
+                        <span class="tech-badge">AWS</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Linux</span>
+                    </div>
+
+                    <a href="#contact" class="course-btn">
+                        Learn More
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
                 </div>
 
                 <!-- Course 6 -->
                 <div class="course-card">
-                    <div class="course-icon">🗺️</div>
-                    <h3>Spatial Transcriptomics</h3>
-                    <p>Explore spatial gene expression analysis using Visium and other spatial technologies, including cell type deconvolution and spatial pattern analysis.</p>
-                    <ul class="course-topics">
-                        <li>Spatial data preprocessing</li>
-                        <li>Cell type deconvolution (cell2location)</li>
-                        <li>Spatial pattern detection</li>
-                        <li>Integration with scRNA-seq</li>
-                        <li>GPU-accelerated pipelines</li>
-                    </ul>
-                    <a href="#contact" class="course-link">Learn More →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Multi-Resolution Omics Approach -->
-    <section class="approach">
-        <div class="container">
-            <h2 class="section-title">Our Unique Approach</h2>
-            <div class="approach-content">
-                <div class="approach-text">
-                    <h3>Multi-Resolution Omics Pyramid</h3>
-                    <p>Our training methodology integrates multiple levels of biological resolution, providing a comprehensive understanding of modern omics technologies:</p>
-                    <div class="pyramid-levels">
-                        <div class="level">
-                            <strong>🔬 Spatial Transcriptomics</strong>
-                            <p>Tissue-level gene expression with spatial context</p>
-                        </div>
-                        <div class="level">
-                            <strong>🧬 Single-Cell RNA-seq</strong>
-                            <p>Cell-type specific expression profiles</p>
-                        </div>
-                        <div class="level">
-                            <strong>📊 Bulk RNA-seq</strong>
-                            <p>Population-level transcriptomics</p>
-                        </div>
-                    </div>
-                    <p>This integrated approach enables you to choose the right technology for your research questions and understand how different omics layers complement each other.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About the Instructor</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Dr. Jitendra Kuldeep, PhD</h3>
-                    <p class="title">CEO</p>
-                    <p>PhD in Bioinformatics</p>
+                    <div class="course-category">Spatial Genomics</div>
+                    <h3 class="course-title">Spatial Transcriptomics</h3>
+                    <p class="course-excerpt">Analyze spatially-resolved gene expression using Visium, cell2location, and advanced spatial analysis techniques</p>
                     
-                    <div class="expertise">
-                        <h4>Research Expertise:</h4>
-                        <ul>
-                            <li>Single-cell & spatial transcriptomics analysis</li>
-                            <li>Protein design & engineering (RFdiffusion, ProteinMPNN)</li>
-                            <li>Drug discovery & machine learning applications</li>
-                            <li>High-performance computing & cloud infrastructure</li>
-                            <li>Multi-omics data integration</li>
-                        </ul>
+                    <div class="course-meta-row">
+                        <div class="course-level">
+                            <span class="level-badge advanced">Advanced</span>
+                        </div>
+                        <div class="course-duration">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M8 4V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            30+ Hours
+                        </div>
                     </div>
 
-                    <div class="expertise">
-                        <h4>Technical Skills:</h4>
-                        <ul>
-                            <li>Programming: Python, R, Bash</li>
-                            <li>Tools: Seurat, Scanpy, DESeq2, RFdiffusion, ProteinMPNN</li>
-                            <li>Platforms: Linux, Docker, AWS EC2, GPU computing</li>
-                            <li>Analysis: RNA-seq, scRNA-seq, spatial transcriptomics, protein modeling</li>
-                        </ul>
+                    <div class="course-features">
+                        <div class="feature-item">✓ Spatial Data Preprocessing</div>
+                        <div class="feature-item">✓ Cell Type Deconvolution</div>
+                        <div class="feature-item">✓ Spatial Pattern Detection</div>
+                        <div class="feature-item">✓ Integration with scRNA-seq</div>
+                        <div class="feature-item">✓ Advanced Visualization</div>
                     </div>
 
-                    <p class="mission"><strong>Mission:</strong> To make complex bioinformatics concepts accessible and practical for researchers at all levels, empowering them to leverage computational tools effectively in their research.</p>
+                    <div class="course-tools">
+                        <span class="tech-badge">Seurat</span>
+                        <span class="tech-badge">cell2location</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+
+                    <a href="#contact" class="course-btn">
+                        Learn More
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="methodology" class="methodology-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Our Approach</div>
+                <h2 class="section-title">Multi-Resolution Omics Framework</h2>
+                <p class="section-description">An integrated learning methodology that connects different scales of biological analysis</p>
+            </div>
+
+            <div class="methodology-content">
+                <div class="methodology-pyramid">
+                    <div class="pyramid-level level-1">
+                        <div class="level-number">01</div>
+                        <div class="level-content">
+                            <h3>Spatial Transcriptomics</h3>
+                            <p>Tissue-level gene expression with spatial context and cellular organization</p>
+                            <div class="level-tech">Visium • 10x Genomics • cell2location</div>
+                        </div>
+                    </div>
+                    <div class="pyramid-level level-2">
+                        <div class="level-number">02</div>
+                        <div class="level-content">
+                            <h3>Single-Cell RNA-seq</h3>
+                            <p>Cell-type specific expression profiles and cellular heterogeneity analysis</p>
+                            <div class="level-tech">Seurat • Scanpy • scVI • Harmony</div>
+                        </div>
+                    </div>
+                    <div class="pyramid-level level-3">
+                        <div class="level-number">03</div>
+                        <div class="level-content">
+                            <h3>Bulk RNA-seq</h3>
+                            <p>Population-level transcriptomics and differential expression analysis</p>
+                            <div class="level-tech">DESeq2 • edgeR • limma</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="methodology-benefits">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🎯</div>
+                        <h4>Integrated Understanding</h4>
+                        <p>Connect biological phenomena across multiple resolution levels</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🔬</div>
+                        <h4>Technology Selection</h4>
+                        <p>Choose the optimal approach for your research questions</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">📊</div>
+                        <h4>Data Integration</h4>
+                        <p>Combine insights from complementary omics technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructor Section -->
+    <section id="instructor" class="instructor-section">
+        <div class="container">
+            <div class="instructor-wrapper">
+                <div class="instructor-image-col">
+                    <div class="instructor-image-container">
+                        <img src="images/profile.jpg" alt="Dr. Jitendra Kuldeep" class="instructor-image" onerror="this.src='https://ui-avatars.com/api/?name=Jitendra+Kuldeep&size=400&background=2563eb&color=fff&bold=true&font-size=0.4'">
+                        <div class="instructor-badge">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor"/>
+                            </svg>
+                            PhD Expert
+                        </div>
+                    </div>
+                    <div class="instructor-social">
+                        <a href="https://linkedin.com/in/jitendra-kul" target="_blank" class="social-button">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M16 0H4C1.8 0 0 1.8 0 4V16C0 18.2 1.8 20 4 20H16C18.2 20 20 18.2 20 16V4C20 1.8 18.2 0 16 0ZM6 17H3V7H6V17ZM4.5 5.7C3.5 5.7 2.7 4.9 2.7 3.9C2.7 2.9 3.5 2.1 4.5 2.1C5.5 2.1 6.3 2.9 6.3 3.9C6.3 4.9 5.5 5.7 4.5 5.7ZM17 17H14V12.2C14 11.1 14 9.7 12.5 9.7C11 9.7 10.8 10.9 10.8 12.1V17H7.8V7H10.7V8.3H10.7C11.1 7.6 12.1 6.8 13.6 6.8C16.6 6.8 17.2 8.7 17.2 11.2V17H17Z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/jitendra-kul" target="_blank" class="social-button">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.477 0 0 4.477 0 10c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0110 4.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C17.137 18.163 20 14.418 20 10c0-5.523-4.477-10-10-10z"/>
+                            </svg>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="instructor-content-col">
+                    <div class="section-badge">Meet Your Instructor</div>
+                    <h2 class="instructor-name">Dr. Jitendra Kuldeep, PhD</h2>
+                    <div class="instructor-title">Computational Biologist & Bioinformatics Educator</div>
+                    
+                    <p class="instructor-bio">With a PhD in Bioinformatics and extensive research experience in infectious disease biology, I've dedicated my career to bridging the gap between computational methods and biological discovery. My work spans tuberculosis, leishmaniasis, and malaria research, with a focus on leveraging cutting-edge computational tools for drug discovery and therapeutic development.</p>
+
+                    <div class="credentials-grid">
+                        <div class="credential-item">
+                            <div class="credential-icon">🎓</div>
+                            <div>
+                                <div class="credential-label">Education</div>
+                                <div class="credential-value">PhD in Bioinformatics</div>
+                            </div>
+                        </div>
+                        <div class="credential-item">
+                            <div class="credential-icon">🔬</div>
+                            <div>
+                                <div class="credential-label">Research Focus</div>
+                                <div class="credential-value">Infectious Disease & Drug Discovery</div>
+                            </div>
+                        </div>
+                        <div class="credential-item">
+                            <div class="credential-icon">💼</div>
+                            <div>
+                                <div class="credential-label">Specialization</div>
+                                <div class="credential-value">Computational Biology & AI</div>
+                            </div>
+                        </div>
+                        <div class="credential-item">
+                            <div class="credential-icon">📚</div>
+                            <div>
+                                <div class="credential-label">Publications</div>
+                                <div class="credential-value">Peer-Reviewed Research</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="expertise-section">
+                        <h3>Technical Expertise</h3>
+                        <div class="expertise-tags">
+                            <span class="expertise-tag">Single-Cell Analysis</span>
+                            <span class="expertise-tag">Spatial Transcriptomics</span>
+                            <span class="expertise-tag">Protein Engineering</span>
+                            <span class="expertise-tag">Machine Learning</span>
+                            <span class="expertise-tag">Drug Discovery</span>
+                            <span class="expertise-tag">Cloud Computing</span>
+                            <span class="expertise-tag">Python/R</span>
+                            <span class="expertise-tag">GPU Computing</span>
+                            <span class="expertise-tag">Docker/AWS</span>
+                        </div>
+                    </div>
+
+                    <div class="mission-statement">
+                        <div class="mission-icon">🎯</div>
+                        <div class="mission-text">
+                            <h4>Mission</h4>
+                            <p>To democratize access to advanced bioinformatics education, empowering researchers worldwide with the computational skills needed to drive breakthrough discoveries in life sciences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Advance Your Research?</h2>
+                <p class="cta-description">Join our professional training programs and transform your computational biology skills</p>
+                <a href="#contact" class="btn btn-primary btn-large">
+                    Schedule a Consultation
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact-section">
         <div class="container">
-            <h2 class="section-title">Get Started Today</h2>
-            <p class="section-subtitle">Ready to advance your bioinformatics skills? Let's discuss how our training can support your research goals.</p>
-            
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-method">
-                        <h3>📧 Email</h3>
-                        <p>For course inquiries and enrollment</p>
-                        <a href="mailto:[jitendrapramanik88@gmail.com]">[jitendrapramanik88@gmail.com]</a>
+            <div class="section-header">
+                <div class="section-badge">Get In Touch</div>
+                <h2 class="section-title">Start Your Learning Journey</h2>
+                <p class="section-description">Connect with us to discuss course enrollment, custom training programs, or research collaboration</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M28 8L16 17L4 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <rect x="4" y="6" width="24" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+                        </svg>
                     </div>
-                    
-                    <div class="contact-method">
-                        <h3>💼 LinkedIn</h3>
-                        <p>Connect for professional networking</p>
-                        <a href="https://linkedin.com/in/jitendra-kul" target="_blank">linkedin.com/in/jitendra-kul</a>
-                    </div>
-                    
-                    <div class="contact-method">
-                        <h3>🐙 GitHub</h3>
-                        <p>Explore code repositories and resources</p>
-                        <a href="https://github.com/jitendra-kul" target="_blank">github.com/jitendra-kul</a>
-                    </div>
+                    <h3>Email Us</h3>
+                    <p>For course inquiries and enrollment information</p>
+                    <a href="mailto:jitendrapramanik88@gmail.com" class="contact-link">jitendrapramanik88@gmail.com</a>
                 </div>
 
-                <div class="contact-form-box">
-                    <h3>Quick Inquiry</h3>
-                    <p>Interested in a specific course? Let us know!</p>
-                    <div class="course-checkboxes">
-                        <label><input type="checkbox"> Single-Cell RNA-seq</label>
-                        <label><input type="checkbox"> Bulk RNA-seq & NGS</label>
-                        <label><input type="checkbox"> Protein Design</label>
-                        <label><input type="checkbox"> Machine Learning</label>
-                        <label><input type="checkbox"> Cloud Computing</label>
-                        <label><input type="checkbox"> Spatial Transcriptomics</label>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect x="4" y="4" width="24" height="24" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M11 4V8M21 4V8M4 12H28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
                     </div>
-                    <p class="form-note">Please email us with your selections and we'll get back to you within 24 hours!</p>
+                    <h3>Schedule Consultation</h3>
+                    <p>Book a free consultation to discuss your training needs</p>
+                    <a href="mailto:jitendrapramanik88@gmail.com?subject=Consultation Request" class="contact-link">Book a Call</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 12V16L19 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Response Time</h3>
+                    <p>We respond to all inquiries within 24 hours</p>
+                    <span class="contact-link">Fast Support</span>
+                </div>
+            </div>
+
+            <div class="course-interest">
+                <h3>Interested in specific courses?</h3>
+                <p>Let us know which programs interest you most</p>
+                <div class="interest-grid">
+                    <label class="interest-checkbox">
+                        <input type="checkbox">
+                        <span>Single-Cell RNA-seq</span>
+                    </label>
+                    <label class="interest-checkbox">
+                        <input type="checkbox">
+                        <span>Bulk RNA-seq & NGS</span>
+                    </label>
+                    <label class="interest-checkbox">
+                        <input type="checkbox">
+                        <span>Protein Design</span>
+                    </label>
+                    <label class="interest-checkbox">
+                        <input type="checkbox">
+                        <span>Machine Learning</span>
+                    </label>
+                    <label class="interest-checkbox">
+                        <input type="checkbox">
+                        <span>Cloud Computing</span>
+                    </label>
+                    <label class="interest-checkbox">
+                        <input type="checkbox">
+                        <span>Spatial Transcriptomics</span>
+                    </label>
                 </div>
             </div>
         </div>
@@ -259,8 +651,45 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Bioinformatics Made Easy. All rights reserved.</p>
-            <p>Empowering researchers with computational biology expertise</p>
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🧬</span>
+                        <span class="logo-text">Bioinformatics Made Easy</span>
+                    </div>
+                    <p class="footer-tagline">Professional training platform for computational biology and bioinformatics</p>
+                    <div class="footer-social">
+                        <a href="https://linkedin.com/in/jitendra-kul" target="_blank" class="footer-social-link">LinkedIn</a>
+                        <a href="https://github.com/jitendra-kul" target="_blank" class="footer-social-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Courses</h4>
+                        <a href="#courses">Single-Cell RNA-seq</a>
+                        <a href="#courses">Bulk RNA-seq</a>
+                        <a href="#courses">Protein Design</a>
+                        <a href="#courses">Machine Learning</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#instructor">About</a>
+                        <a href="#methodology">Methodology</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="https://github.com/jitendra-kul" target="_blank">Code Examples</a>
+                        <a href="#courses">Course Catalog</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bioinformatics Made Easy. All rights reserved.</p>
+                <p>Empowering researchers with computational biology expertise</p>
+            </div>
         </div>
     </footer>
 
